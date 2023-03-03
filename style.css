@@ -1,5 +1,4 @@
 html{
-    -webkit-font-smoothing: antialiasing;
     text-rendering: optimizeLegibility;
 }
 body{
@@ -11,13 +10,13 @@ body{
     align-items: center;
     justify-content:center;
     position:sticky;
-    box-shadow: 0 5px 30px #b4b4b4;
+    box-shadow: 0 5px 30px #d8d8d8;
     width: 100%;
     height: 90px;
 }
 .toplogo img{
-    width: 170px;
-    height: 100%;
+    width: 175px;
+    height: auto;
     margin-right: 20px;
 }
 .navlink{
@@ -26,7 +25,7 @@ body{
     color: rgb(19, 19, 19);
     text-decoration: none;
     font-family: Inter,sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 }
 .navlink:hover{
@@ -43,6 +42,7 @@ body{
     font-weight: bold;
     align-items: center;
     padding: 2px 2px 2px 0px;
+    margin-left: 20px;
 }
 .signin:hover{
     background-color: #002970;
@@ -50,4 +50,25 @@ body{
 }
 .signin span{
     padding: 2px 8px 2px 13px;
+}
+.kyc-section{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+.kyc-section span{
+    font-weight: 600;
+    margin-right: 4px;
+}
+.kyc-section a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.kyc-section .emoji{
+    font-size: 25px;
 }
