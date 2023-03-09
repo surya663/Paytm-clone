@@ -42,14 +42,14 @@ body{
     font-weight: bold;
     align-items: center;
     padding: 2px 2px 2px 0px;
-    margin-left: 20px;
+    margin-left: 24px;
 }
 .signin:hover{
     background-color: #002970;
     cursor: pointer;
 }
 .signin span{
-    padding: 2px 8px 2px 13px;
+    padding: 2px 8px 2px 15px;
 }
 .kyc-section{
     font-family: Inter, sans-serif;
@@ -71,4 +71,10 @@ body{
 }
 .kyc-section .emoji{
     font-size: 25px;
+}
+.main1{
+    display: block;
+}
+.main1 img{
+    width: 75px;
 }
